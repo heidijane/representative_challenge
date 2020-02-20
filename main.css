@@ -1,0 +1,59 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(58, 48, 48);
+}
+
+a:link {
+    color: darkred;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1em;
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1em;
+}
+.rep__img {
+    width: 100%;
+}
+.rep__name {
+    margin-bottom:0;
+}
+.rep__district {
+    font-style: italic;
+    margin-bottom:0;
+}
+.rep__affiliation {
+    color: darkblue;
+    font-weight: bold;
+}
+.commitees, .legislation, .rep__media {
+    border-top: 1px dashed darkred;
+}
+
+.rep__media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*.rep__media p {
+    border: 1px solid orange;
+}*/
